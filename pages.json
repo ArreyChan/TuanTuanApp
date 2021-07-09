@@ -1,0 +1,125 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "团团购",
+				"enablePullDownRefresh":true
+			}
+		}
+	    ,{
+            "path" : "pages/cc/1",
+            "style" : {
+				"navigationBarTitleText": "个人主页",
+				"enablePullDownRefresh":true
+			}
+        }
+		,{
+		    "path" : "pages/MyAccount/MyAccount",
+		    "style" : {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh":true
+			}
+		}
+        ,{
+            "path" : "pages/Recommend/Recommend",
+            "style" : {
+				"navigationBarTitleText": "消息通知",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/Dollcircle/Dollcircle",
+            "style" : {"navigationBarTitleText": "崽崽集市",
+			"enablePullDownRefresh":true}
+        }
+        ,{
+            "path" : "pages/Creat/Creat",
+            "style" : {
+				"navigationBarTitleText": "创作",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/a/a",
+            "style" : {
+				"navigationBarTitleText": "稿图分享"
+				
+			}
+        }
+        ,{
+            "path" : "pages/b/b",
+            "style" : {"navigationBarTitleText": "设计师"}
+        }
+        ,{
+            "path" : "pages/c/c",
+            "style" : {"navigationBarTitleText": "成品超市"}
+        }
+        , {
+          "path": "pages/reg/reg",
+          "style": {
+            "navigationBarTitleText": "注册"
+          }
+        }, {
+          "path": "pages/pwd/pwd",
+          "style": {
+            "navigationBarTitleText": "找回密码"
+          }
+        },
+		
+		{
+            "path" : "pages/d/d",
+            "style" : {
+				"navigationBarTitleText": "娃厂"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle":"white",
+		/* "navigationBarTitleText": "uni-app", */
+		"navigationBarBackgroundColor": "#ff758c",
+		"backgroundColor": "#fecfef",
+		"backgroundTextStyle":"light"
+	},
+	"tabBar":{
+	
+		"selectedColor":"#ff758c",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabs/home.png",
+				"selectedIconPath":"static/tabs/home-active.png"
+				
+			},
+			{
+				"text":"崽崽集市",
+				"pagePath":"pages/Dollcircle/Dollcircle",
+				"iconPath":"static/tabs/Doll.png",
+				"selectedIconPath":"static/tabs/Doll-active.png"
+		
+			},
+			{
+				"text":"创作",
+				"pagePath":"pages/Creat/Creat",
+				"iconPath":"static/tabs/design.png",
+				"selectedIconPath":"static/tabs/Design-active.png"
+			}, 
+			{
+				"text":"消息",
+				"pagePath":"pages/Recommend/Recommend",
+				"iconPath":"static/tabs/class.png",
+				"selectedIconPath":"static/tabs/class-active.png"
+				
+			}, 
+			{
+				"text":"个人主页",
+				"pagePath":"pages/cc/1",
+				"iconPath":"static/tabs/template.png",
+				"selectedIconPath":"static/tabs/template-active.png"
+			}
+		],
+		"borderStyle":"white"
+		
+	}
+}

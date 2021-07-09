@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cc/1",
+    "pages/MyAccount/MyAccount",
+    "pages/Recommend/Recommend",
+    "pages/Dollcircle/Dollcircle",
+    "pages/Creat/Creat",
+    "pages/a/a",
+    "pages/b/b",
+    "pages/c/c",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/d/d"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#ff758c",
+    "backgroundColor": "#fecfef",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor": "#ff758c",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "崽崽集市",
+        "pagePath": "pages/Dollcircle/Dollcircle",
+        "iconPath": "static/tabs/Doll.png",
+        "selectedIconPath": "static/tabs/Doll-active.png"
+      },
+      {
+        "text": "创作",
+        "pagePath": "pages/Creat/Creat",
+        "iconPath": "static/tabs/design.png",
+        "selectedIconPath": "static/tabs/Design-active.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/Recommend/Recommend",
+        "iconPath": "static/tabs/class.png",
+        "selectedIconPath": "static/tabs/class-active.png"
+      },
+      {
+        "text": "个人主页",
+        "pagePath": "pages/cc/1",
+        "iconPath": "static/tabs/template.png",
+        "selectedIconPath": "static/tabs/template-active.png"
+      }
+    ],
+    "borderStyle": "white"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap45.json"
+}

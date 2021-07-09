@@ -1,0 +1,17 @@
+
+.title {
+  width: 90px;
+}
+.banner {
+  margin: 0 auto;
+  width: 600rpx;
+  height: 350rpx;
+}
+.sms {
+  margin-top: 3px;
+}
+.cty {
+  margin-top: 10px;
+  padding: 5px 5px;
+}
+
